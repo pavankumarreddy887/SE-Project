@@ -1,0 +1,59 @@
+.movie-card {
+  width: 200px; /* Adjust width as needed */
+  margin: 20px; /* Adjust margin as needed */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  cursor: pointer;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column; /* Stack children vertically */
+}
+
+.movie-card:hover {
+  transform: scale(1.05);
+}
+
+.movie-card img {
+  width: 100%;
+  height: auto; /* Maintain aspect ratio */
+  display: block;
+}
+
+.movie-info {
+  padding: 10px;
+  background-color: #fff;
+  color: #333;
+  margin-top: auto; /* Push info to the bottom */
+}
+
+.movie-info h3 {
+  margin: 5px 0;
+  font-size: 1rem;
+}
+
+.movie-genre {
+  color: #95a5a6; /* Genre color */
+  font-size: 0.9rem; /* Adjust font size as needed */
+  margin: 2px 0; /* Adjust spacing as needed */
+}
+
+.movie-rating {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 0.8rem;
+}
+
+.movie-rating span {
+  display: flex;
+  align-items: center;
+}
+
+.movie-rating span:first-child {
+  color: #e74c3c; /* Rating color */
+}
+
+.movie-rating span:last-child {
+  color: #95a5a6; /* Votes color */
+}

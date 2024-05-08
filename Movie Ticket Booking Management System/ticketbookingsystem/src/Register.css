@@ -1,0 +1,81 @@
+.registration-form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #4b6cb7; /* Adjust to the background color from your screenshot */
+    background: linear-gradient(to right, #182848, #4b6cb7); /* Gradient background */
+  }
+  
+  .registration-form-box {
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.7); /* Semi-transparent black background */
+    border-radius: 10px;
+    color: white;
+    width: 600px; /* Adjust based on your design preference */
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.7);
+  }
+  
+  .registration-form-box h1 {
+    margin-bottom: 20px;
+    font-size: 2em;
+  }
+  
+  .registration-form-box form {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+  }
+  
+  .registration-form-box input,
+  .registration-form-box .gender-options,
+  .registration-form-box button {
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    background: #222;
+    border: none;
+  }
+  
+  .registration-form-box input {
+    color: #fff;
+  }
+  
+  .registration-form-box input::placeholder {
+    color: #ddd;
+  }
+  
+  .registration-form-box .gender-options {
+    grid-column: span 2;
+    padding: 0;
+    margin-bottom: 0;
+    background: none;
+  }
+  
+  .registration-form-box .gender-options label {
+    margin-right: 20px;
+    font-size: 0.9em;
+  }
+  
+  .registration-form-box button {
+    grid-column: span 2;
+    cursor: pointer;
+    background: #4CAF50; /* Green */
+    color: white;
+  }
+  
+  .registration-form-box button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Additional styles for alignment and responsiveness */
+  @media (max-width: 768px) {
+    .registration-form-box form {
+      grid-template-columns: 1fr;
+    }
+  
+    .registration-form-box {
+      width: 90%;
+    }
+  }
+  

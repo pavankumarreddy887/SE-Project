@@ -1,0 +1,12 @@
+.theater-list {
+  padding-top: 70px; /* Adjust this value to match your navbar's height */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+/* Adds a border to each theater but the last one */
+.theater:not(:last-child) {
+  border-bottom: 1px solid #e0e0e0; /* Light grey border */
+}

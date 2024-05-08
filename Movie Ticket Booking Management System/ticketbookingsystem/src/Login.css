@@ -1,0 +1,68 @@
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #554df1; /* Adjust to match the exact color you need */
+  }
+  
+  .login-form {
+    padding: 20px;
+    background: #222;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+  }
+  
+  .login-form h1 {
+    margin-bottom: 10px;
+  }
+  
+  .login-form p {
+    margin-bottom: 20px;
+  }
+  
+  .login-form input {
+    width: calc(100% - 20px);
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #444;
+    border-radius: 5px;
+    background: #222;
+    color: white;
+  }
+  
+  .login-form a {
+    display: block;
+    margin-bottom: 20px;
+    color: #5591f2;
+    text-decoration: none;
+  }
+  
+  .login-form button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background: cornflowerblue;
+    color: white;
+    cursor: pointer;
+    margin-bottom: 10px;
+  }
+  
+  .social-login {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .social-login button {
+    margin: 0 5px;
+    font-size: 24px; /* Adjust size as needed */
+    cursor: pointer;
+    color: white;
+    background: transparent;
+    border: none;
+  }
+  
+  /* Add additional styling for the social buttons if needed */
+  

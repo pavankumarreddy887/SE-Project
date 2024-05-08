@@ -1,0 +1,33 @@
+.theater {
+  width: 100%; /* Theater takes full width of its container */
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Aligns content to the left */
+}
+
+.theater h2 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.showtimes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.showtime {
+  background-color: #f0f0f0; /* Light grey background */
+  border: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  text-align: center;
+  font-weight: bold;
+}
+
+.showtime:hover {
+  background-color: #e0e0e0; /* Darker grey on hover */
+}
